@@ -1,12 +1,13 @@
 body {
   font-family: Overpass;
   margin: 0;
-  background-color: #C33D20;
+  background-color: salmon;
 }
 
 h1, h2, h3 {
   color: white;
   font-family: Chivo;
+  text-decoration: underline;
 }
 
 p {
@@ -14,7 +15,7 @@ p {
   opacity: .7;
 }
 
-.container {
+.heading {
   width: 800px;
   margin: auto;
 }
@@ -34,7 +35,7 @@ p {
 }
 
 .banner p {
-  color: white;
+  color: cornsilk;
   font-size: 24px;
 
 }
@@ -43,8 +44,8 @@ p {
   padding: 9px,8px,9px,6px;
   text-decoration: none;
   color:rgb(230, 230, 230);
-  border: 2px solid blue;
-  background-color: blue;
+  border: 2px solid black;
+  background-color: silver;
   border-radius: 8px;
   box-shadow:4px 4px 2px 0px rgba(0, 0, 0.75);
   margin:50px auto;
@@ -52,72 +53,72 @@ p {
 }
 
 .btn-blue:hover {
-  background-color: white;
+  background-color: azure;
   color: black;
 }
 
-.card-white {
+.options {
   background-color: #802713;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 4px;
   width: 200px;
   text-align: center;
   padding: 24px;
-  margin: 8px;
+ optionspx;
 }
 
-.card-white img {
+.options img {
   width: 180px;
   height: 180px;
   object-fit: cover;
   border-radius: 4px;
 }
 
-.card-white h3 {
+.options h3 {
   margin-bottom: 0;
 }
 
 .footer {
-  background: #404042;
+  background: moccasin;
   text-align: center;
   padding: 24px 0;
 }
 
 .footer p {
-  color: white;
+  color: black;
 }
 
-.cards {
+.big {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
 }
 
 @media (max-width: 800px) {
-  .cards {
+  .big {
     grid-template-columns: 1fr;
   }
   
-  .card-white {
+  .options {
     width: auto;
   }
 }
   
 @media (min-width: 500px) {
-  .container {
+  .heading {
     width: 400px;
   }
-}
+}heading
 
 
 @media (min-width: 800px) {
-  .container {
+  .heading {
     width: 600px;
   }
 }
 
 @media (min-width: 1000px) {
-  .container {
+  .heading {
     width: 800px;
   }
 }
